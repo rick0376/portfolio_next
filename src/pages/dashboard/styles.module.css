@@ -51,7 +51,7 @@
 .callbuton {
   cursor: pointer;
   background-color: #FFFFFF;
-  color:#073b12;
+  color: #073b12;
   border: 0;
   padding: 14px;
   border-radius: 4px;
@@ -79,7 +79,7 @@
   padding-right: 10%;
   padding-top: 80px;
   padding-bottom: 80px;
-
+  text-align: justify;
   display: flex;
   align-items: center;
   justify-content: space-between;

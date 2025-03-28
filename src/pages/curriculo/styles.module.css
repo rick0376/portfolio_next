@@ -67,7 +67,7 @@
 }
 
 .link {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .sideItems {
@@ -83,17 +83,19 @@
   background-color: #faf6f6;
   margin-bottom: 10px;
   padding: 10px;
-  text-align: left;
   border-radius: 5px;
+  /*text-align: justify;*/
 }
 
 .sideTitle {
   display: flex;
   align-items: center;
   gap: 10px;
-
 }
 
+.sideItemText {
+  text-align: justify;
+}
 
 @media (max-width: 600px) {
   .text {

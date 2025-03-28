@@ -84,12 +84,12 @@ export default function Home() {
 
                     <h2>Histórico Profissional</h2>
                     <div className={styles.sideItem}>
-                        <p>
-                            <div className={styles.sideTitle}>
-                                <h3>Tenaris Confab SA.</h3>
-                                <h4>- Inspetor da Qualidade:</h4>
-                                <h4>(Janeiro 2001 - Janeiro 2024)</h4>
-                            </div>
+                        <div className={styles.sideTitle}>
+                            <h3>Tenaris Confab SA.</h3>
+                            <h4>- Inspetor da Qualidade:</h4>
+                            <h4>(Janeiro 2001 - Janeiro 2024)</h4>
+                        </div>
+                        <div className={styles.sideItemText}>
                             <br></br>
                             - Realização de ensaios, medições e testes de controle de qualidade de produtos de acordo com as normas
                             e padrões estabelecidos, analisando a conformidade em relação às especificações técnicas.
@@ -100,16 +100,16 @@ export default function Home() {
                             do levantamento de dados das amostras.
                             <br></br>
                             - Controle Dimensional e Visual de toda produção, procurando manter o alto padrão de qualidades.
-                        </p>
+                        </div>
                     </div>
 
                     <div className={styles.sideItem}>
-                        <p>
-                            <div className={styles.sideTitle}>
-                                <h3>Redes de Postos Sete Estrelas.</h3>
-                                <h4>- Gerente Administrativo:</h4>
-                                <h4>(Janeiro 1997 - Dezembro 2000)</h4>
-                            </div>
+                        <div className={styles.sideTitle}>
+                            <h3>Redes de Postos Sete Estrelas.</h3>
+                            <h4>- Gerente Administrativo:</h4>
+                            <h4>(Janeiro 1997 - Dezembro 2000)</h4>
+                        </div>
+                        <div className={styles.sideItemText}>
                             <br></br>
                             - Monitoramento das operações diárias da unidade, garantindo o cumprimento das funções de cada colaborador dentro das diretrizes da empresa.
                             <br></br>
@@ -118,16 +118,16 @@ export default function Home() {
                             - Gerenciamento dos resultados da equipe, realizando reuniões periódicas a fim de solucionar os entraves para o alcance das metas.
                             <br></br>
                             - Fechamento de caixa e controle total de estoques e produtos.
-                        </p>
+                        </div>
                     </div>
 
                     <div className={styles.sideItem}>
-                        <p>
-                            <div className={styles.sideTitle}>
-                                <h3>Construcione Engenharia Civil Ltda.</h3>
-                                <h4>- Assistente Administrativo:</h4>
-                                <h4>(Janeiro 1994 - Dezembro 1997)</h4>
-                            </div>
+                        <div className={styles.sideTitle}>
+                            <h3>Construcione Engenharia Civil Ltda.</h3>
+                            <h4>- Assistente Administrativo:</h4>
+                            <h4>(Janeiro 1994 - Dezembro 1997)</h4>
+                        </div>
+                        <div className={styles.sideItemText}>
                             <br></br>
                             -  Organização de documentos, armazenando adequadamente arquivos importantes para fácil acesso e consulta posterior.
                             <br></br>
@@ -136,11 +136,11 @@ export default function Home() {
                             - Atendimento aos clientes, solucionando problemas e atendendo às demandas de forma eficiente.
                             <br></br>
                             - Suporte administrativo aos setores da empresa, atuando em atividades de controle para a geração de relatórios.
-                        </p>
+                        </div>
                     </div>
 
                     <div className={styles.sideItem}>
-                        <p>
+                        <div className={styles.sideItemText}>
                             <h3>Habilidades e Competências:</h3>
                             <br></br>
                             Excelência no relacionamento com equipes de trabalho.
@@ -152,11 +152,11 @@ export default function Home() {
                             Agilidade na identificação de erros.
                             <br></br>
                             Habilidades em comunicação e analises da dados.
-                        </p>
+                        </div>
                     </div>
 
                     <div className={styles.sideItem}>
-                        <p>
+                        <div className={styles.sideItemText}>
                             <h3>Qualificações e Atividades Complementares:</h3>
                             <br></br>
                             •	Analista de Dados com especialização em Power BI. <br></br>
@@ -183,7 +183,7 @@ export default function Home() {
                             •	Análise de Falhas e Tomadadas de Decisão - SENAI. <br></br>
                             •	Operador de Empilhadeiras - SENAI. <br></br>
 
-                        </p>
+                        </div>
                     </div>
 
                 </div>

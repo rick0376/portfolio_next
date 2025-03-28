@@ -12,7 +12,8 @@ const projetos = [
   { src: projImg, alt: "Projeto 1", link: "https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
   { src: projImg1, alt: "Projeto 2", link: "https://app.powerbi.com/view?r=eyJrIjoiMmY4MWM5M2ItMGZlMi00YmU5LTkwZTItN2Y3MDYxNmIwZjdhIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
   { src: projImg2, alt: "Projeto 3", link: "https://app.powerbi.com/view?r=eyJrIjoiODRkYmMwZTYtMDNjNS00NDUzLTg1YWMtNjlmMjgwNDUyMzVmIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: projImg, alt: "Projeto 1", link: "https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  
+  /*{ src: projImg, alt: "Projeto 1", link: "https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },*/
 ];
 
 const imagens = [
@@ -71,6 +72,8 @@ export default function Dashboard() {
             <br></br>
             Olá! <br></br>Sou Rick Pereira, formado em "Engenharia de Produção" com experiência como Inspetor da Qualidade.
             <br></br><br></br>
+            Também fui Gerente Administrativo em posto de gasolina e Assistente Administrativo em Construtora Civil.
+            <br></br><br></br>
             Atualmente, me especializo em Análise de Dados, utilizando Power BI e Pacote Office para transformar informações
             em insights estratégicos.<br></br>
             Também desenvolvo projetos para aplicativos Mobile e Web, aplicando meus conhecimentos em tecnologia para criar
@@ -92,7 +95,7 @@ export default function Dashboard() {
       {/*INICIO PROJETOS*/}
       <section id="projetos" className={styles.projects}>
         <h2>Meus projetos</h2>
-        <p>Projetos em Power BI</p>
+        <p>Projetos Dashboard em Power BI</p>
         <div>
           {projetos.map((projeto, index) => (
             <Link key={index} href={projeto.link} target="_blank" rel="noopener noreferrer">

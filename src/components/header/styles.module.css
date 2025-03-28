@@ -213,7 +213,7 @@
   }
 
   .loginButton:hover {
-    transform: scale(0.0);
+    transform: scale(0.9);
     color: #0f0f0f;
     font-weight: bold;
     font-size: 12px;
