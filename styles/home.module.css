@@ -16,10 +16,10 @@
 }
 
 .hero {
-  max-width: 900px;
+  max-width: 1024px;
   object-fit: contain;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .title {
@@ -51,6 +51,35 @@
   color: #07083b;
   font-weight: bold;
 
+}
+
+.boxContato {
+  background-color: transparent;
+  color: #f9f9fa;
+  padding: 14px 44px;
+  border-radius: 4px;
+  transition: transform 0.4s;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.boxContato:hover {
+  transform: scale(1.08);
+}
+
+.textContato {
+font-size: 16px;
+  color: white; /* Cor branca */
+  font-weight: bold;
+  
+}
+
+.whatsappIcon {
+  font-size: 40px;
+  color: #25d366; 
+  margin-right: 8px;
 }
 
 .link {

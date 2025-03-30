@@ -24,7 +24,6 @@ export function Header() {
               </div>
             </div>
 
-            {/* Menu de navegação (li no canto direito) */}
             <div className={styles.navRight}>
               <ul className={styles.navHeaderList}>
                 <li>
