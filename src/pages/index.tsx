@@ -35,12 +35,12 @@ export default function Home() {
         <div className={styles.infoContent}>
           <section className={styles.box}>
             <Link href="/dashboard" className={styles.link}>
-              <span className={styles.text}>Portfólio</span>
+              <span className={styles.text}>Meu Portfólio</span>
             </Link>
           </section>
           <section className={styles.box}>
             <Link href="/curriculo" className={styles.link}>
-              <span className={styles.text}>Histórico Profissional</span>
+              <span className={styles.text}>Meu Currículo Vitae</span>
             </Link>
           </section>
         </div>
