@@ -3,11 +3,18 @@ import styles from './styles.module.css';
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
+import { FaWhatsapp } from "react-icons/fa";
 
 import fotoImg from "../../../public/assets/foto-pc.png";
 
 const projeto = {
     link: "https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9"
+};
+
+const openWhatsApp = () => {
+    const numero = "5512991890682"; // Código do país (55) + DDD (12) + Número
+    const url = `https://wa.me/${numero}`;
+    window.open(url, "_blank"); // Abre o WhatsApp em uma nova aba
 };
 
 export default function Home() {
@@ -37,6 +44,12 @@ export default function Home() {
                         <FaPhone size={20} /> {/* Ícone de Telefone */}
                         <span className={styles.text}>(12) 99189-0682</span>
                     </div>
+
+                    <div className={styles.sidebarItem} onClick={openWhatsApp} style={{ cursor: "pointer" }}>
+                        <FaWhatsapp className={styles.whatsappIcon} /> {/* Ícone do WhatsApp */}
+                        <span className={styles.textContato}>Contato: (12) 99189-0682</span>
+                    </div>
+
                     <div className={styles.sidebarItem}>
                         <FaBirthdayCake size={20} /> {/* Ícone de Data de Nascimento */}
                         <span className={styles.text}>03/02/1976</span>

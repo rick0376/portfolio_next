@@ -97,6 +97,19 @@
   text-align: justify;
 }
 
+.textContato {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.whatsappIcon {
+  font-size: 40px;
+  color: #0d0e0d;
+  margin-right: 8px;
+}
+
+
 @media (max-width: 600px) {
   .text {
     font-size: 12px;
