@@ -77,7 +77,7 @@
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 80px;
   text-align: justify;
   display: flex;
@@ -98,7 +98,7 @@
 .about div h2 {
   font-size: 32px;
   margin-bottom: 14px;
-  color:  #07083b;
+  color: #07083b;
 }
 
 /* FIM ABOUT */
@@ -107,13 +107,13 @@
 .projects {
   width: 100%;
   display: flex;
-  color:  #07083b;
+  color: #07083b;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 80px 0;
   text-align: center;
-  }
+}
 
 .projects h2 {
   font-size: 32px;
@@ -167,10 +167,13 @@
 .divProjectMy {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .divProjectMy p {
   margin-bottom: 5px;
+  font-weight: bold;
+  color: #07083b;
 }
 
 .callbutonProject {
@@ -189,19 +192,19 @@
 }
 
 .text {
-  font-size: 16px;
-  color:  #07083b;
+  font-size: 22px;
+  color: #07083b;
 }
 
 .link {
   text-decoration: none;
-  }
+}
 
 .divLink {
   display: flex;
   padding: 0px;
   gap: 30px;
-  background-color:transparent;
+  background-color: transparent;
   justify-content: center;
 }
 
@@ -273,7 +276,7 @@
 
   .about {
     flex-direction: column;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;

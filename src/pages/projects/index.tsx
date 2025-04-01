@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-import fotoImg from "../../../public/assets/foto-pc.png";
+import fotoImg from "../../../public/assets/projects/01_mobile.png";
 import projImg from "../../../public/assets/dashboard/01_dashboard.png";
 import projImg1 from "../../../public/assets/dashboard/02_dashboard.png";
 import projImg2 from "../../../public/assets/dashboard/03_dashboard.png";
@@ -26,17 +26,17 @@ const projetosDashboard = [
 ];
 
 const projetosPrograms = [
-  { src: projImg4, alt: "Mobile 1", link: "/projects" },
-  { src: projImg5, alt: "Mobile 2", link: "/projects" },
-  { src: projImg6, alt: "Mobile 3", link: "/projects" },
-  { src: projImg7, alt: "Mobile 4", link: "/projects" },
+  { src: projImg4, alt: "Mobile 1", link: "/dashboard" },
+  { src: projImg5, alt: "Mobile 2", link: "/dashboard" },
+  { src: projImg6, alt: "Mobile 3", link: "/dashboard" },
+  { src: projImg7, alt: "Mobile 4", link: "/dashboard" },
 ];
 
 const projetosProgramsWeb = [
-  { src: projImg8, alt: "FrontEnd 1", link: "/projects" },
-  { src: projImg9, alt: "FrontEnd 2", link: "/projects" },
-  { src: projImg10, alt: "FrontEnd 3", link: "/projects" },
-  { src: projImg11, alt: "FrontEnd 4", link: "/projects" },
+  { src: projImg8, alt: "FrontEnd 1", link: "/dashboard" },
+  { src: projImg9, alt: "FrontEnd 2", link: "/dashboard" },
+  { src: projImg10, alt: "FrontEnd 3", link: "/dashboard" },
+  { src: projImg11, alt: "FrontEnd 4", link: "/dashboard" },
 
 ];
 
@@ -51,50 +51,20 @@ export default function Dashboard() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Portfólio - Rick Pereira</title>
+        <title>Projetos - Comércio</title>
       </Head>
 
       {/*-- INICIO MAIN -->*/}
-      <section id="home" className={styles.main}>
-        <div>
-          <h1>Olá,Seja bem vindo</h1>
-          <p>Meu Portfólio / Histórico Profissional</p>
-
-          <div className={styles.divsobre}>
-            <div className={styles.divprojeto}>
-              <a href="#sobre">
-                <button className={styles.callbuton}>
-                  Sobre 👇
-                </button>
-              </a>
-            </div>
-            <div className={styles.divprojeto}>
-              <a href="#projetos">
-                <button className={styles.callbuton}>
-                  Veja meus projetos ⚙️
-                </button>
-              </a>
-            </div>
-
-            <div className={styles.divprojeto}>
-              <Link href="/curriculo" className={styles.link}>
-                <button className={styles.callbuton}>
-                  Meu Currículo 📝
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       {/*FIM DO MAIN*/}
 
       {/*INICIO SOBRE*/}
       <section id="sobre" className={styles.about}>
         <div>
-          <h2>Sobre</h2>
+          <h2>Mobile Comercio</h2>
           <p>
-            Olá! <br></br>Sou Rick Pereira, formado em "Engenharia de Produção" com experiência como Inspetor da Qualidade.
-            <br></br><br></br>
+            Tela de cadastro de Clientes / Mesas.
+            <br></br>
             Também fui Gerente Administrativo em posto de gasolina e Assistente Administrativo em Construtora Civil.
             <br></br><br></br>
             Atualmente, me especializo em Análise de Dados, utilizando Power BI e Pacote Office para transformar informações
@@ -109,8 +79,8 @@ export default function Dashboard() {
         </div>
 
         <div>
-          <h1>Tecnologia Digital</h1>
-          <Image src={fotoImg} alt="Minha Foto" width={500} height={300} />
+          <h1>Cadastrar Mesas</h1>
+          <Image src={fotoImg} alt="Cadastrar Mesa" width={200} height={300} />
         </div>
       </section>
       {/*FIM SOBRE*/}
