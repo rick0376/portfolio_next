@@ -98,20 +98,22 @@
 .about div h2 {
   font-size: 32px;
   margin-bottom: 14px;
+  color:  #07083b;
 }
 
 /* FIM ABOUT */
-
+/* #07083b;*/
 /* INICIO PROJECTS */
 .projects {
   width: 100%;
   display: flex;
+  color:  #07083b;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 80px 0;
   text-align: center;
-}
+  }
 
 .projects h2 {
   font-size: 32px;
@@ -149,8 +151,26 @@
   transition: 0.9s;
 }
 
+.projectsImg2 {
+  width: 22%;
+  height: 22%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  opacity: 0.8;
+  transition: 0.9s;
+}
+
 .projects img:hover {
   opacity: 1;
+}
+
+.divProjectMy {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divProjectMy p {
+  margin-bottom: 5px;
 }
 
 .callbutonProject {
@@ -170,17 +190,19 @@
 
 .text {
   font-size: 16px;
-  color: #333;
+  color:  #07083b;
 }
 
 .link {
   text-decoration: none;
-}
+  }
 
 .divLink {
   display: flex;
-  padding: 20px;
-  gap: 30px
+  padding: 0px;
+  gap: 30px;
+  background-color:transparent;
+  justify-content: center;
 }
 
 .action {
@@ -198,7 +220,6 @@
   color: #fff;
   text-decoration: none;
 }
-
 
 .action:hover {
   transform: scale(1.15);
