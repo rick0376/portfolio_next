@@ -4,18 +4,22 @@ import Image from "next/image";
 import Link from "next/link";
 
 import fotoImg from "../../../public/assets/foto-pc.png";
-import projImg from "../../../public/assets/dashboard/01_dashboard.png";
-import projImg1 from "../../../public/assets/dashboard/02_dashboard.png";
-import projImg2 from "../../../public/assets/dashboard/03_dashboard.png";
-import projImg3 from "../../../public/assets/dashboard/04_dashboard.png";
-import projImg4 from "../../../public/assets/projects/01_mobile.png";
-import projImg5 from "../../../public/assets/projects/02_mobile.png";
-import projImg6 from "../../../public/assets/projects/03_mobile.png";
-import projImg7 from "../../../public/assets/projects/04_mobile.png";
-import projImg8 from "../../../public/assets/projects/01_frontEnd.png";
-import projImg9 from "../../../public/assets/projects/02_frontEnd.png";
-import projImg10 from "../../../public/assets/projects/03_frontEnd.png";
-import projImg11 from "../../../public/assets/projects/04_frontEnd.png";
+import projImg from "../../../public/assets/dashboard_01.png";
+import projImg1 from "../../../public/assets/dashboard_02.png";
+import projImg2 from "../../../public/assets/dashboard_03.png";
+import projImg3 from "../../../public/assets/dashboard_04.png";
+import projImg4 from "../../../public/assets/mobile_01.png";
+import projImg5 from "../../../public/assets/mobile_02.png";
+import projImg6 from "../../../public/assets/mobile_03.png";
+import projImg7 from "../../../public/assets/mobile_04.png";
+import projImg8 from "../../../public/assets/frontEnd_01.png";
+import projImg9 from "../../../public/assets/frontEnd_02.png";
+import projImg10 from "../../../public/assets/frontEnd_03.png";
+import projImg11 from "../../../public/assets/frontEnd_04.png";
+import projImg12 from "../../../public/assets/frontEnd_05.png";
+import projImg13 from "../../../public/assets/frontEnd_06.png";
+import projImg14 from "../../../public/assets/frontEnd_07.png";
+import projImg15 from "../../../public/assets/frontEnd_08.png";
 
 
 const projetosDashboard = [
@@ -26,27 +30,32 @@ const projetosDashboard = [
 ];
 
 const projetosPrograms = [
-  { src: projImg4, alt: "Mobile 1", link: "/projects" },
-  { src: projImg5, alt: "Mobile 2", link: "/projects" },
-  { src: projImg6, alt: "Mobile 3", link: "/projects" },
-  { src: projImg7, alt: "Mobile 4", link: "/projects" },
+  { src: projImg4, alt: "Mobile 1", link: "/projects/mobile#home" },
+  { src: projImg5, alt: "Mobile 2", link: "/projects/mobile#+products" },
+  { src: projImg6, alt: "Mobile 3", link: "/projects/mobile#editar" },
+  { src: projImg7, alt: "Mobile 4", link: "/projects/mobile#finalizar" },
 ];
 
 const projetosProgramsWeb = [
-  { src: projImg8, alt: "FrontEnd 1", link: "/projects" },
-  { src: projImg9, alt: "FrontEnd 2", link: "/projects" },
-  { src: projImg10, alt: "FrontEnd 3", link: "/projects" },
-  { src: projImg11, alt: "FrontEnd 4", link: "/projects" },
+  { src: projImg8, alt: "FrontEnd 1", link: "/projects/web#criar" },
+  { src: projImg9, alt: "FrontEnd 2", link: "/projects/web#acessar" },
+  { src: projImg10, alt: "FrontEnd 3", link: "/projects/web#listar" },
+  { src: projImg11, alt: "FrontEnd 4", link: "/projects/web#resumo" },
+  { src: projImg12, alt: "FrontEnd 1", link: "/projects/web#+category" },
+  { src: projImg13, alt: "FrontEnd 2", link: "/projects/web#editcategory" },
+  { src: projImg14, alt: "FrontEnd 3", link: "/projects/web#+product" },
+  { src: projImg15, alt: "FrontEnd 4", link: "/projects/web#editproduct" },
 
 ];
 
+/*
 const imagens = [
   "01_dashboard.png",
   "02_dashboard.png",
   "03_dashboard.png",
   // Adicione mais imagens conforme necessário
 ];
-
+*/
 export default function Dashboard() {
   return (
     <div className={styles.container}>
@@ -122,19 +131,8 @@ export default function Dashboard() {
           <p>Projetos Dashboard em Power BI</p>
           <div>
             {projetosDashboard.map((projetosDashboard, index) => (
-              <Link key={index} href={projetosDashboard.link} target="_blank" rel="noopener noreferrer">
+              <Link key={index} href={projetosDashboard.link} rel="noopener noreferrer">
                 <Image className={styles.projectsImg} src={projetosDashboard.src} alt={projetosDashboard.alt} />
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        <div className={styles.divProjectMy}>
-          <p>Projetos Mobile Comércio</p>
-          <div>
-            {projetosPrograms.map((projetosPrograms, index) => (
-              <Link key={index} href={projetosPrograms.link} target="_blank" rel="noopener noreferrer">
-                <Image className={styles.projectsImg2} src={projetosPrograms.src} alt={projetosPrograms.alt} />
               </Link>
             ))}
           </div>
@@ -144,13 +142,24 @@ export default function Dashboard() {
           <p>Projetos Web Comércio</p>
           <div>
             {projetosProgramsWeb.map((projetosProgramsWeb, index) => (
-              <Link key={index} href={projetosProgramsWeb.link} target="_blank" rel="noopener noreferrer">
+              <Link key={index} href={projetosProgramsWeb.link}  rel="noopener noreferrer">
                 <Image className={styles.projectsImg} src={projetosProgramsWeb.src} alt={projetosProgramsWeb.alt} />
               </Link>
             ))}
           </div>
         </div>
-
+        
+        <div className={styles.divProjectMy}>
+          <p>Projetos Mobile Comércio</p>
+          <div>
+            {projetosPrograms.map((projetosPrograms, index) => (
+              <Link key={index} href={projetosPrograms.link} rel="noopener noreferrer">
+                <Image className={styles.projectsImg2} src={projetosPrograms.src} alt={projetosPrograms.alt} />
+              </Link>
+            ))}
+          </div>
+        </div>
+      
       </section>
 
       <div className={styles.divLink}>

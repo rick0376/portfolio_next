@@ -3,10 +3,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-import projImg1 from "../../../public/assets/projects/01_mobile.png";
-import projImg2 from "../../../public/assets/projects/02_mobile.png";
-import projImg3 from "../../../public/assets/projects/03_mobile.png";
-import projImg4 from "../../../public/assets/projects/04_mobile.png";
+import projImg1 from "../../../../public/assets/mobile_01.png"
+import projImg2 from "../../../../public/assets/mobile_02.png";
+import projImg3 from "../../../../public/assets/mobile_03.png";
+import projImg4 from "../../../../public/assets/mobile_04.png";
 
 export default function Projects() {
   return (
@@ -31,6 +31,12 @@ export default function Projects() {
         </div>
       </section>
 
+      <div className={styles.flexSeparator}>
+        <span></span>
+        <p>Início Projeto Mobile</p>
+        <span></span>
+      </div>
+
       <section id="sobre" className={styles.about}>
         <div className={styles.divText}>
           <h2> "Abrir Mesas e Registrar Pedido"</h2>
@@ -46,12 +52,18 @@ export default function Projects() {
         </div>
       </section>
 
-      <section id="sobre" className={styles.about}>
+      <div className={styles.flexSeparator}>
+        <span></span>
+        <p>Próxima Tela</p>
+        <span></span>
+      </div>
+
+      <section id="+products" className={styles.about}>
         <div className={styles.divText}>
           <h2>"Adicionar Produtos ao Pedido</h2>
           <br></br>
           <p>
-            Nesta tela, o garçom pode cadastrar os itens pedidos pelo cliente.
+            Nesta tela abaixo, o garçom pode cadastrar os itens pedidos pelo cliente.
             <br></br>
             Após selecionar a mesa, é possível adicionar produtos ao pedido, informando detalhes como nome,
             quantidade e observações, garantindo um atendimento mais organizado e eficiente.
@@ -62,7 +74,13 @@ export default function Projects() {
         </div>
       </section>
 
-      <section id="sobre" className={styles.about}>
+      <div className={styles.flexSeparator}>
+        <span></span>
+        <p>Próxima Tela</p>
+        <span></span>
+      </div>
+
+      <section id="editar" className={styles.about}>
         <div className={styles.divText}>
           <h2>"Editar Pedido" </h2>
           <br></br>
@@ -79,7 +97,13 @@ export default function Projects() {
         </div>
       </section>
 
-      <section id="sobre" className={styles.about}>
+      <div className={styles.flexSeparator}>
+        <span></span>
+        <p>Próxima Tela</p>
+        <span></span>
+      </div>
+
+      <section id="finalizar" className={styles.about}>
         <div className={styles.divText}>
           <h2>  "Finalizar e Enviar Pedido" </h2>
           <br></br>
@@ -95,6 +119,50 @@ export default function Projects() {
           <Image src={projImg4} alt="Minha Foto" className={styles.responsiveImg} />
         </div>
       </section>
+
+      <div className={styles.flexSeparator}>
+        <span></span>
+        <p>Fim Projeto Mobile</p>
+        <span></span>
+      </div>
+
+      {/*-- INÍCIO FOOTER --*/}
+      <div className={styles.divLink}>
+        <div className={styles.divprojeto}>
+          <button className={styles.callbutonProject}>
+            <Link href="/" className={styles.link}>
+              <span className={styles.text}>Home</span>
+            </Link>
+          </button>
+        </div>
+
+        <div className={styles.divprojeto}>
+          <button className={styles.callbutonProject}>
+            <Link href="/dashboard#sobre" className={styles.link}>
+              <span className={styles.text}>Sobre</span>
+            </Link>
+          </button>
+        </div>
+
+        <div className={styles.divprojeto}>
+          <button className={styles.callbutonProject}>
+            <Link href="/curriculo" className={styles.link}>
+              <span className={styles.text}>Currículo</span>
+            </Link>
+          </button>
+        </div>
+
+      </div>
+      {/*-- FIM PROJETOS --*/}
+
+      {/* INICIO RODAPE */}
+      <footer className={styles.footer}>
+        <h3>
+          <a href="#">LHPSYSTEMS Programador</a>
+        </h3>
+        <p>Todos os direitos reservados © 2025 LHPSYSTEMS.</p>
+      </footer>
+      {/* FIM RODAPE */}
     </div>
   )
 }
