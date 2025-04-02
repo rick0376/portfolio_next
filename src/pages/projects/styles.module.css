@@ -1,303 +1,145 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* INICIO MAIN */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* INICIO MAIN */
+.main {
+  width: 100%;
+  background-color: #07083b;
+  height: calc(100vh - 80px);
+  background-image: url("/assets/projeto/01_projeto.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.main h1 {
+  color: #ffffff;
+  font-size: 54px;
+}
+
+.main p {
+  font-size: 24px;
+  font-style: italic;
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.main a {
+  text-decoration: none;
+  color: #07083b;
+}
+
+.divsobre {
+  display: flex;
+}
+
+.divprojeto {
+  width: 100%px;
+  padding: 5px;
+}
+
+.callbuton {
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #07083b;
+  border: 0;
+  padding: 14px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.9s;
+}
+
+/* FIM MAIN */
+
+/* INICIO ABOUT */
+.about {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  text-align: justify;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: space-between;
+}
+
+.divText {
+  padding-right: 10%;
+}
+
+.divImg {
+  background-color: transparent;
+}
+
+.divImg h1 {
+  text-align: center;
+}
+
+.about div {
+  max-width: 80%;
+  padding-right: 20px;
+}
+
+.about div h1 {
+  font-size: 32px;
+  color: #07083b;
+}
+
+.about div h2 {
+  font-size: 32px;
+  color: #07083b;
+}
+
+.responsiveImg {
+  width: 200px;
+  height: 400px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
   .main {
-    width: 100%;
-    background-color: #000;
-    height: calc(100vh - 80px);
-    background-image: url("/assets/programador.png");
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
+    display: none;
   }
-  
-  .main h1 {
-    color: #FFFFFF;
-    font-size: 54px;
-  }
-  
-  .main p {
-    font-size: 24px;
-    font-style: italic;
-    color: #FFFFFF;
-    margin-top: 10px;
-    margin-bottom: 35px;
-  }
-  
-  .divsobre {
-    display: flex;
-  }
-  
-  .divprojeto {
-    width: 100%px;
-    padding: 5px;
-  }
-  
-  .call-to-action {
-    cursor: pointer;
-    background-color: #FFFFFF;
-    border: 0;
-    padding: 14px;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.9s;
-  }
-  
-  .callbuton {
-    cursor: pointer;
-    background-color: #FFFFFF;
-    color: #073b12;
-    border: 0;
-    padding: 14px;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.9s;
-  }
-  
-  .call-to-action:hover {
-    transform: scale(1.1);
-  }
-  
-  .main a {
-    text-decoration: none;
-    color: #181818;
-  }
-  
-  /* FIM MAIN */
-  
-  /* INICIO ABOUT */
+
   .about {
-    background-color: #FFFFFF;
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 40px;
-    padding-bottom: 80px;
-    text-align: justify;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .about div {
-    max-width: 50%;
-    padding-right: 40px;
-  }
-  
-  .about img {
-    max-width: 450px;
-    border-radius: 8px;
-  }
-  
-  .about div h2 {
-    font-size: 32px;
-    margin-bottom: 14px;
-    color: #07083b;
-  }
-  
-  /* FIM ABOUT */
-  /* #07083b;*/
-  /* INICIO PROJECTS */
-  .projects {
-    width: 100%;
-    display: flex;
-    color: #07083b;
     flex-direction: column;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-left: 10px;
     align-items: center;
-    justify-content: center;
-    padding: 80px 0;
-    text-align: center;
+    background: transparent;
   }
-  
-  .projects h2 {
-    font-size: 32px;
-    margin-bottom: 8px;
-    margin-top: 20px;
+
+  .about div {
+    max-width: 80%;
   }
-  
-  .projects p {
-    margin-bottom: 40px;
-    font-style: italic;
-  }
-  
-  .project-list {
-    width: 100%;
-    margin-bottom: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .projects img {
-    width: 22%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    opacity: 0.8;
-    transition: 0.9s;
-  }
-  
-  .projectsImg {
-    width: 22%;
-    height: 22%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    opacity: 0.8;
-    transition: 0.9s;
-  }
-  
-  .projectsImg2 {
-    width: 22%;
-    height: 22%;
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    opacity: 0.8;
-    transition: 0.9s;
-  }
-  
-  .projects img:hover {
-    opacity: 1;
-  }
-  
-  .divProjectMy {
+
+  .about div h1 {
     margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-  }
-  
-  .divProjectMy p {
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #07083b;
-  }
-  
-  .callbutonProject {
-    background-color: transparent;
-    color: #0f0f0f;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: all 0.4s;
-  }
-  
-  .callbutonProject:hover {
-    transform: scale(1.3);
-    color: #0f0f0f;
-    font-weight: bold;
-  }
-  
-  .text {
     font-size: 22px;
-    color: #07083b;
   }
-  
-  .link {
-    text-decoration: none;
+
+  .about div h2 {
+    font-size: 24px;
   }
-  
-  .divLink {
-    display: flex;
-    padding: 0px;
-    gap: 30px;
-    background-color: transparent;
-    justify-content: center;
-  }
-  
-  .action {
-    background-color: #181818;
-    border: 0;
-    padding: 12px 28px;
-    border-radius: 14px;
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-top: 18px;
-    cursor: pointer;
-  }
-  
-  .action a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .action:hover {
-    transform: scale(1.15);
-    background-color: #0c0b0b;
-    color: #0f0f0f;
-    font-weight: bold;
-  }
-  
-  /* FIM PROJECTS */
-  
-  /* INICIO RODAPE */
-  .footer {
+
+  .about .divImg img {
+    align-items: center;
     width: 100%;
-    background-color: #07083b;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .footer h3 a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  .footer h3 a:hover {
-    color: #8888c7;
-  }
-  
-  .footer p {
     margin-top: 10px;
-    font-size: 1rem;
-    color: #ccc;
   }
-  
-  /* Responsividade */
-  @media (max-width: 600px) {
-    .main {
-      display: none;
-    }
-  
-    .footer h3 a {
-      font-size: 1.2rem;
-    }
-  
-    .footer p {
-      font-size: 0.9rem;
-    }
-  
-    .about {
-      flex-direction: column;
-      padding-top: 40px;
-      padding-left: 0;
-      padding-right: 0;
-      padding-bottom: 0;
-    }
-  
-    .about div {
-      max-width: 80%;
-    }
-  
-    .about div h1 {
-      font-size: 25px;
-    }
-  
-    .about div h2 {
-      font-size: 35px;
-    }
-  
-    .about img {
-      width: 80%;
-      margin-top: 30px;
-    }
+
+  .responsiveImg {
+    width: 100px;
+    height: 200px;
   }
-  
-  /* FIM RODAPE */
+}

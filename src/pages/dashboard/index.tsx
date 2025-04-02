@@ -57,7 +57,7 @@ export default function Dashboard() {
       {/*-- INICIO MAIN -->*/}
       <section id="home" className={styles.main}>
         <div>
-          <h1>Olá,Seja bem vindo</h1>
+          <h1>Olá, Seja bem vindo</h1>
           <p>Meu Portfólio / Histórico Profissional</p>
 
           <div className={styles.divsobre}>
