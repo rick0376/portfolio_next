@@ -29,14 +29,14 @@ import frontImg8 from "../../../public/assets/frontEnd_08.png";
 
 
 const projetosDashboard = [
-  { src: dashImg1, alt: "Dashboard 1", link: "/projects/powerbi#home" },
-  { src: dashImg2, alt: "Dashboard 2", link: "/projects/powerbi#+products" },
-  { src: dashImg3, alt: "Dashboard 3", link: "/projects/powerbi#editar" },
-  { src: dashImg4, alt: "Dashboard 4", link: "/projects/powerbi#finalizar" },
-  { src: dashImg5, alt: "Dashboard 5", link: "/projects/powerbi#finalizar" },
-  { src: dashImg6, alt: "Dashboard 6", link: "/projects/powerbi#finalizar" },
-  { src: dashImg7, alt: "Dashboard 7", link: "/projects/powerbi#finalizar" },
-  { src: dashImg8, alt: "Dashboard 8", link: "/projects/powerbi#finalizar" },
+  { src: dashImg1, alt: "Dashboard 1", link: "/projects/powerbi#vendaloja" },
+  { src: dashImg2, alt: "Dashboard 2", link: "/projects/powerbi#acidentes" },
+  { src: dashImg3, alt: "Dashboard 3", link: "/projects/powerbi#carros" },
+  { src: dashImg4, alt: "Dashboard 4", link: "/projects/powerbi#logistica" },
+  { src: dashImg5, alt: "Dashboard 5", link: "/projects/powerbi#imobiliario" },
+  { src: dashImg6, alt: "Dashboard 6", link: "/projects/powerbi#obras" },
+  { src: dashImg7, alt: "Dashboard 7", link: "/projects/powerbi#rh" },
+  { src: dashImg8, alt: "Dashboard 8", link: "/projects/powerbi#cliente" },
 ];
 
 const projetosPrograms = [
