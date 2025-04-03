@@ -4,47 +4,57 @@ import Image from "next/image";
 import Link from "next/link";
 
 import fotoImg from "../../../public/assets/foto-pc.png";
-import projImg from "../../../public/assets/dashboard_01.png";
-import projImg1 from "../../../public/assets/dashboard_02.png";
-import projImg2 from "../../../public/assets/dashboard_03.png";
-import projImg3 from "../../../public/assets/dashboard_04.png";
-import projImg4 from "../../../public/assets/mobile_01.png";
-import projImg5 from "../../../public/assets/mobile_02.png";
-import projImg6 from "../../../public/assets/mobile_03.png";
-import projImg7 from "../../../public/assets/mobile_04.png";
-import projImg8 from "../../../public/assets/frontEnd_01.png";
-import projImg9 from "../../../public/assets/frontEnd_02.png";
-import projImg10 from "../../../public/assets/frontEnd_03.png";
-import projImg11 from "../../../public/assets/frontEnd_04.png";
-import projImg12 from "../../../public/assets/frontEnd_05.png";
-import projImg13 from "../../../public/assets/frontEnd_06.png";
-import projImg14 from "../../../public/assets/frontEnd_07.png";
-import projImg15 from "../../../public/assets/frontEnd_08.png";
+import dashImg1 from "../../../public/assets/dashboard_01.png";
+import dashImg2 from "../../../public/assets/dashboard_02.png";
+import dashImg3 from "../../../public/assets/dashboard_03.png";
+import dashImg4 from "../../../public/assets/dashboard_04.png";
+import dashImg5 from "../../../public/assets/dashboard_05.png";
+import dashImg6 from "../../../public/assets/dashboard_06.png";
+import dashImg7 from "../../../public/assets/dashboard_07.png";
+import dashImg8 from "../../../public/assets/dashboard_08.png";
+
+import mobImg1 from "../../../public/assets/mobile_01.png";
+import mobImg2 from "../../../public/assets/mobile_02.png";
+import mobImg3 from "../../../public/assets/mobile_03.png";
+import mobImg4 from "../../../public/assets/mobile_04.png";
+
+import frontImg1 from "../../../public/assets/frontEnd_01.png";
+import frontImg2 from "../../../public/assets/frontEnd_02.png";
+import frontImg3 from "../../../public/assets/frontEnd_03.png";
+import frontImg4 from "../../../public/assets/frontEnd_04.png";
+import frontImg5 from "../../../public/assets/frontEnd_05.png";
+import frontImg6 from "../../../public/assets/frontEnd_06.png";
+import frontImg7 from "../../../public/assets/frontEnd_07.png";
+import frontImg8 from "../../../public/assets/frontEnd_08.png";
 
 
 const projetosDashboard = [
-  { src: projImg, alt: "Dashboard 1", link: "https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: projImg1, alt: "Dashboard 2", link: "https://app.powerbi.com/view?r=eyJrIjoiMmY4MWM5M2ItMGZlMi00YmU5LTkwZTItN2Y3MDYxNmIwZjdhIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: projImg2, alt: "Dashboard 3", link: "https://app.powerbi.com/view?r=eyJrIjoiODRkYmMwZTYtMDNjNS00NDUzLTg1YWMtNjlmMjgwNDUyMzVmIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: projImg3, alt: "Dashboard 3", link: "https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg1, alt: "Dashboard 1", link: "/projects/powerbi#home" },
+  { src: dashImg2, alt: "Dashboard 2", link: "/projects/powerbi#+products" },
+  { src: dashImg3, alt: "Dashboard 3", link: "/projects/powerbi#editar" },
+  { src: dashImg4, alt: "Dashboard 4", link: "/projects/powerbi#finalizar" },
+  { src: dashImg5, alt: "Dashboard 5", link: "/projects/powerbi#finalizar" },
+  { src: dashImg6, alt: "Dashboard 6", link: "/projects/powerbi#finalizar" },
+  { src: dashImg7, alt: "Dashboard 7", link: "/projects/powerbi#finalizar" },
+  { src: dashImg8, alt: "Dashboard 8", link: "/projects/powerbi#finalizar" },
 ];
 
 const projetosPrograms = [
-  { src: projImg4, alt: "Mobile 1", link: "/projects/mobile#home" },
-  { src: projImg5, alt: "Mobile 2", link: "/projects/mobile#+products" },
-  { src: projImg6, alt: "Mobile 3", link: "/projects/mobile#editar" },
-  { src: projImg7, alt: "Mobile 4", link: "/projects/mobile#finalizar" },
+  { src: mobImg1, alt: "Mobile 1", link: "/projects/mobile#home" },
+  { src: mobImg2, alt: "Mobile 2", link: "/projects/mobile#+products" },
+  { src: mobImg3, alt: "Mobile 3", link: "/projects/mobile#editar" },
+  { src: mobImg4, alt: "Mobile 4", link: "/projects/mobile#finalizar" },
 ];
 
 const projetosProgramsWeb = [
-  { src: projImg8, alt: "FrontEnd 1", link: "/projects/web#criar" },
-  { src: projImg9, alt: "FrontEnd 2", link: "/projects/web#acessar" },
-  { src: projImg10, alt: "FrontEnd 3", link: "/projects/web#listar" },
-  { src: projImg11, alt: "FrontEnd 4", link: "/projects/web#resumo" },
-  { src: projImg12, alt: "FrontEnd 1", link: "/projects/web#+category" },
-  { src: projImg13, alt: "FrontEnd 2", link: "/projects/web#editcategory" },
-  { src: projImg14, alt: "FrontEnd 3", link: "/projects/web#+product" },
-  { src: projImg15, alt: "FrontEnd 4", link: "/projects/web#editproduct" },
+  { src: frontImg1, alt: "FrontEnd 1", link: "/projects/web#criar" },
+  { src: frontImg2, alt: "FrontEnd 2", link: "/projects/web#acessar" },
+  { src: frontImg3, alt: "FrontEnd 3", link: "/projects/web#listar" },
+  { src: frontImg4, alt: "FrontEnd 4", link: "/projects/web#resumo" },
+  { src: frontImg5, alt: "FrontEnd 5", link: "/projects/web#+category" },
+  { src: frontImg6, alt: "FrontEnd 6", link: "/projects/web#editcategory" },
+  { src: frontImg7, alt: "FrontEnd 7", link: "/projects/web#+product" },
+  { src: frontImg8, alt: "FrontEnd 8", link: "/projects/web#editproduct" },
 
 ];
 
