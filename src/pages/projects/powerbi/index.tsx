@@ -12,15 +12,15 @@ import dashImg6 from "../../../../public/assets/dashboard_06.png";
 import dashImg7 from "../../../../public/assets/dashboard_07.png";
 import dashImg8 from "../../../../public/assets/dashboard_08.png";
 
-const projetosDashboard = [
+const imagens = [
   { src: dashImg1, alt: "Dashboard 1", link: "https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
   { src: dashImg2, alt: "Dashboard 2", link: "https://app.powerbi.com/view?r=eyJrIjoiMmY4MWM5M2ItMGZlMi00YmU5LTkwZTItN2Y3MDYxNmIwZjdhIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg3, alt: "Dashboard 3", link: "https://app.powerbi.com/view?r=eyJrIjoiODRkYmMwZTYtMDNjNS00NDUzLTg1YWMtNjlmMjgwNDUyMzVmIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg4, alt: "Dashboard 4", link: "https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg5, alt: "Dashboard 5", link: "https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg6, alt: "Dashboard 6", link: "https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg7, alt: "Dashboard 7", link: "https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg8, alt: "Dashboard 8", link: "https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg3, alt: "Dashboard 3", link: "https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg4, alt: "Dashboard 4", link: "https://app.powerbi.com/view?r=eyJrIjoiODRkYmMwZTYtMDNjNS00NDUzLTg1YWMtNjlmMjgwNDUyMzVmIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg5, alt: "Dashboard 5", link: "https://app.powerbi.com/view?r=eyJrIjoiN2VlOWYwZTgtZDY2Zi00ZDJjLTgxNjYtODU3Y2E1ZTUzYTAxIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg6, alt: "Dashboard 6", link: "https://app.powerbi.com/view?r=eyJrIjoiNDYyZjQ4ZTItY2QyOS00MjgxLWExY2YtN2M2M2NhYjMzMGNkIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg7, alt: "Dashboard 7", link: "https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg8, alt: "Dashboard 8", link: "https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
 
 ];
 
@@ -31,7 +31,7 @@ const projetosDashboard = [
 /* fundos imobiliários: https://app.powerbi.com/view?r=eyJrIjoiN2VlOWYwZTgtZDY2Zi00ZDJjLTgxNjYtODU3Y2E1ZTUzYTAxIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
 /* gestão de projetos e obras: https://app.powerbi.com/view?r=eyJrIjoiNDYyZjQ4ZTItY2QyOS00MjgxLWExY2YtN2M2M2NhYjMzMGNkIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
 /* gestão Recursos Humanos: https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
-/* atendimentos ao clientes: https://app.powerbi.com/view?r=eyJrIjoiODdiNzMwMTctMWRmYS00ODFlLWJkYjUtNTcxNTg1YzVhYjZmIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
+/* atendimentos ao clientes: https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
 
 export default function Projects() {
   return (
@@ -80,9 +80,13 @@ export default function Projects() {
             baseadas em dados para otimizar resultados.<br></br>
           </p>
         </div>
+
         <div className={styles.divImg}>
-          <Image src={dashImg1} alt="Minha Foto" className={styles.responsiveImg} />
+          <Link href={imagens[0].link} target="_blank" rel="noopener noreferrer">
+            <Image src={imagens[0].src} alt={imagens[0].alt} className={styles.responsiveImg} />
+          </Link>
         </div>
+
       </section>
 
 
@@ -92,7 +96,7 @@ export default function Projects() {
         <span></span>
       </div>
 
-      <section id="acidentes" className={styles.about}>
+      <section id="acidentes" className={styles.about}>g1
         <div className={styles.divText}>
           <h2>"🚦 Dashboard de Acidentes em Rodovias - Análise de Ocorrências"</h2>
           <br></br>
@@ -116,7 +120,9 @@ export default function Projects() {
           </p>
         </div>
         <div className={styles.divImg}>
-          <Image src={dashImg2} alt="Minha Foto" className={styles.responsiveImg} />
+          <Link href={imagens[1].link} target="_blank" rel="noopener noreferrer">
+            <Image src={imagens[1].src} alt={imagens[1].alt} className={styles.responsiveImg} />
+          </Link>
         </div>
       </section>
 
@@ -148,7 +154,9 @@ export default function Projects() {
           </p>
         </div>
         <div className={styles.divImg}>
-          <Image src={dashImg3} alt="Minha Foto" className={styles.responsiveImg} />
+          <Link href={imagens[2].link} target="_blank" rel="noopener noreferrer">
+            <Image src={imagens[2].src} alt={imagens[2].alt} className={styles.responsiveImg} />
+          </Link>
         </div>
       </section>
 
@@ -181,13 +189,14 @@ export default function Projects() {
 
             Com esse painel, gestores podem otimizar a logística, reduzir custos, aumentar a eficiência das entregas e minimizar devoluções,
             garantindo um melhor controle financeiro e operacional.<br></br>
-
-
           </p>
         </div>
         <div className={styles.divImg}>
-          <Image src={dashImg4} alt="Minha Foto" className={styles.responsiveImg} />
+          <Link href={imagens[3].link} target="_blank" rel="noopener noreferrer">
+            <Image src={imagens[3].src} alt={imagens[3].alt} className={styles.responsiveImg} />
+          </Link>
         </div>
+
       </section>
 
       <div className={styles.flexSeparator}>
@@ -237,7 +246,9 @@ export default function Projects() {
           </p>
         </div>
         <div className={styles.divImg}>
-          <Image src={dashImg5} alt="Minha Foto" className={styles.responsiveImg} />
+          <Link href={imagens[4].link} target="_blank" rel="noopener noreferrer">
+            <Image src={imagens[4].src} alt={imagens[4].alt} className={styles.responsiveImg} />
+          </Link>
         </div>
       </section>
 
@@ -281,7 +292,9 @@ export default function Projects() {
           </p>
         </div>
         <div className={styles.divImg}>
-          <Image src={dashImg6} alt="Minha Foto" className={styles.responsiveImg} />
+          <Link href={imagens[5].link} target="_blank" rel="noopener noreferrer">
+            <Image src={imagens[5].src} alt={imagens[5].alt} className={styles.responsiveImg} />
+          </Link>
         </div>
       </section>
 
@@ -318,7 +331,9 @@ export default function Projects() {
           </p>
         </div>
         <div className={styles.divImg}>
-          <Image src={dashImg7} alt="Minha Foto" className={styles.responsiveImg} />
+          <Link href={imagens[6].link} target="_blank" rel="noopener noreferrer">
+            <Image src={imagens[6].src} alt={imagens[6].alt} className={styles.responsiveImg} />
+          </Link>
         </div>
       </section>
 
@@ -355,7 +370,9 @@ export default function Projects() {
           </p>
         </div>
         <div className={styles.divImg}>
-          <Image src={dashImg8} alt="Minha Foto" className={styles.responsiveImg} />
+          <Link href={imagens[7].link} target="_blank" rel="noopener noreferrer">
+            <Image src={imagens[7].src} alt={imagens[7].alt} className={styles.responsiveImg} />
+          </Link>
         </div>
       </section>
 

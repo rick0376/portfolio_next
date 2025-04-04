@@ -73,8 +73,8 @@
 
 .about .divImg img {
   align-items: center;
-  width: 600px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   margin-top: 20px;
 }
 
@@ -83,8 +83,9 @@
 }
 
 .divImg {
-  background-color: transparent;
-}
+  background-color:transparent;
+  
+  }
 
 .divImg h1 {
   text-align: center;
@@ -92,7 +93,7 @@
 
 .about div {
   max-width: 80%;
-  padding-right: 20px;
+  padding-right: 0px;
 }
 
 .about div h1 {
@@ -105,12 +106,11 @@
   color: #07083b;
 }
 
-/*
 .responsiveImg {
-  width: 200px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
 }
-*/
+
 .flexSeparator {
   display: flex;
   align-items: center;
@@ -236,7 +236,7 @@
     margin-top: 10px;
   }
 */
- /* .responsiveImg {
+  /* .responsiveImg {
     width: 100px;
     height: 200px;
   }
