@@ -70,14 +70,14 @@ export default function Dashboard() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Portfólio - Rick Pereira</title>
+        <title>LHPSYSTEMS - Portfólio</title>
       </Head>
 
       {/*-- INICIO MAIN -->*/}
       <section id="home" className={styles.main}>
         <div>
           <h1>Olá, Seja bem vindo</h1>
-          <p>Meu Portfólio / Histórico Profissional</p>
+          <p>Meu Portfólio / Currilum Vitae</p>
 
           <div className={styles.divsobre}>
             <div className={styles.divprojeto}>
@@ -112,7 +112,7 @@ export default function Dashboard() {
         <div>
           <h2>Sobre</h2>
           <p>
-            Olá! <br></br>Sou Rick Pereira, formado em "Engenharia de Produção" com experiência como Inspetor da Qualidade.
+            Olá! <br></br>Sou Luis Henrique Pereira, formado em "Engenharia de Produção" com experiência como Inspetor da Qualidade.
             <br></br><br></br>
             Também fui Gerente Administrativo em posto de gasolina e Assistente Administrativo em Construtora Civil.
             <br></br><br></br>
@@ -128,8 +128,8 @@ export default function Dashboard() {
         </div>
 
         <div>
-          <h1>Tecnologia Digital</h1>
-          <Image src={fotoImg} alt="Minha Foto" width={500} height={300} />
+          <h1>Técnologia Digital</h1>
+          <Image src={fotoImg} alt="Técnologia Digital" width={500} height={300} />
         </div>
       </section>
       {/*FIM SOBRE*/}
@@ -138,7 +138,7 @@ export default function Dashboard() {
       <section id="projetos" className={styles.projects}>
         <h2>Meus projetos</h2>
         <div className={styles.divProjectMy}>
-          <p>Projetos Dashboard em Power BI</p>
+          <p>Dashboard em Power BI</p>
           <div>
             {projetosDashboard.map((projetosDashboard, index) => (
               <Link key={index} href={projetosDashboard.link} rel="noopener noreferrer">

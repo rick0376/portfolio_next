@@ -7,10 +7,6 @@ import { FaWhatsapp } from "react-icons/fa";
 
 import fotoImg from "../../../public/assets/foto-pc.png";
 
-const projeto = {
-    link: "https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9"
-};
-
 const openWhatsApp = () => {
     const numero = "5512991890682"; // Código do país (55) + DDD (12) + Número
     const url = `https://wa.me/${numero}`;
@@ -21,7 +17,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Curricullum - Rick Pereira</title>
+                <title>LHPSYSTEMS - Curriculum Vitae</title>
             </Head>
             <div className={styles.mainContent}>
                 <div className={styles.sidebar}>

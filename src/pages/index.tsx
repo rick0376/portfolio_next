@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Meu Portfólio</title>
+        <title>LHPSYSTEMS - Portfólio</title>
       </Head>
 
       <main className={styles.main}>
@@ -29,7 +29,7 @@ export default function Home() {
           />
         </div>
         <h1 className={styles.title}>
-          Sistema feito para você exibir seu portfólio
+          Sistema feito para você exibir meu portfólio
         </h1>
 
         <div className={styles.infoContent}>

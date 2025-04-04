@@ -12,7 +12,7 @@ export default function Projects() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Projects - Rick Pereira</title>
+        <title>LHPSYSTEMS - Projects Mobile</title>
       </Head>
       <section id="home" className={styles.main}>
         <div>
