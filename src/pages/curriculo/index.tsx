@@ -62,8 +62,8 @@ export default function Home() {
                         <FaRing size={20} /> {/* Ícone de Estado Civil */}
                         <span className={styles.text}>Casado</span>
                     </div>
-
-                    <Link href={projeto.link} target="_blank" rel="noopener noreferrer" className={styles.link}>
+                    
+                    <Link href="/dashboard#projetos" className={styles.link}>
                         <div className={styles.sidebarItem}>
 
                             <span className={styles.text}>SITES, PORTFÓLIOS E PERFIS</span>
@@ -203,42 +203,42 @@ export default function Home() {
             </div>
 
             {/*-- INÍCIO FOOTER --*/}
-      <div className={styles.divLink}>
-        <div className={styles.divprojeto}>
-          <button className={styles.callbutonProject}>
-            <Link href="/" className={styles.link}>
-              <span className={styles.textFooter}>Home</span>
-            </Link>
-          </button>
-        </div>
+            <div className={styles.divLink}>
+                <div className={styles.divprojeto}>
+                    <button className={styles.callbutonProject}>
+                        <Link href="/" className={styles.link}>
+                            <span className={styles.textFooter}>Home</span>
+                        </Link>
+                    </button>
+                </div>
 
-        <div className={styles.divprojeto}>
-          <button className={styles.callbutonProject}>
-            <Link href="/dashboard#sobre" className={styles.link}>
-              <span className={styles.textFooter}>Sobre</span>
-            </Link>
-          </button>
-        </div>
+                <div className={styles.divprojeto}>
+                    <button className={styles.callbutonProject}>
+                        <Link href="/dashboard#sobre" className={styles.link}>
+                            <span className={styles.textFooter}>Sobre</span>
+                        </Link>
+                    </button>
+                </div>
 
-        <div className={styles.divprojeto}>
-          <button className={styles.callbutonProject}>
-            <Link href="/curriculo" className={styles.link}>
-              <span className={styles.textFooter}>Currículo</span>
-            </Link>
-          </button>
-        </div>
+                <div className={styles.divprojeto}>
+                    <button className={styles.callbutonProject}>
+                        <Link href="/curriculo" className={styles.link}>
+                            <span className={styles.textFooter}>Currículo</span>
+                        </Link>
+                    </button>
+                </div>
 
-      </div>
-      {/*-- FIM PROJETOS --*/}
+            </div>
+            {/*-- FIM PROJETOS --*/}
 
-      {/* INICIO RODAPE */}
-      <footer className={styles.footer}>
-        <h3>
-          <a href="#">LHPSYSTEMS Programador</a>
-        </h3>
-        <p>Todos os direitos reservados © 2025 LHPSYSTEMS.</p>
-      </footer>
-      {/* FIM RODAPE */}
+            {/* INICIO RODAPE */}
+            <footer className={styles.footer}>
+                <h3>
+                    <a href="#">LHPSYSTEMS Programador</a>
+                </h3>
+                <p>Todos os direitos reservados © 2025 LHPSYSTEMS.</p>
+            </footer>
+            {/* FIM RODAPE */}
         </div>
     );
 }

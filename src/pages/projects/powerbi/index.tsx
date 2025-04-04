@@ -13,31 +13,22 @@ import dashImg7 from "../../../../public/assets/dashboard_07.png";
 import dashImg8 from "../../../../public/assets/dashboard_08.png";
 
 const imagens = [
-  { src: dashImg1, alt: "Dashboard 1", link: "https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg2, alt: "Dashboard 2", link: "https://app.powerbi.com/view?r=eyJrIjoiMmY4MWM5M2ItMGZlMi00YmU5LTkwZTItN2Y3MDYxNmIwZjdhIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg3, alt: "Dashboard 3", link: "https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg4, alt: "Dashboard 4", link: "https://app.powerbi.com/view?r=eyJrIjoiODRkYmMwZTYtMDNjNS00NDUzLTg1YWMtNjlmMjgwNDUyMzVmIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg5, alt: "Dashboard 5", link: "https://app.powerbi.com/view?r=eyJrIjoiN2VlOWYwZTgtZDY2Zi00ZDJjLTgxNjYtODU3Y2E1ZTUzYTAxIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg6, alt: "Dashboard 6", link: "https://app.powerbi.com/view?r=eyJrIjoiNDYyZjQ4ZTItY2QyOS00MjgxLWExY2YtN2M2M2NhYjMzMGNkIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg7, alt: "Dashboard 7", link: "https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
-  { src: dashImg8, alt: "Dashboard 8", link: "https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg1, alt: "Vendas Lojas", link: "https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg2, alt: "Acidentes Rodovias", link: "https://app.powerbi.com/view?r=eyJrIjoiMmY4MWM5M2ItMGZlMi00YmU5LTkwZTItN2Y3MDYxNmIwZjdhIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg3, alt: "Vendas Carros", link: "https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg4, alt: "Gestão de Faturamento", link: "https://app.powerbi.com/view?r=eyJrIjoiODRkYmMwZTYtMDNjNS00NDUzLTg1YWMtNjlmMjgwNDUyMzVmIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg5, alt: "Fundos Imobiliários", link: "https://app.powerbi.com/view?r=eyJrIjoiN2VlOWYwZTgtZDY2Zi00ZDJjLTgxNjYtODU3Y2E1ZTUzYTAxIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg6, alt: "Gestão de Projetos", link: "https://app.powerbi.com/view?r=eyJrIjoiNDYyZjQ4ZTItY2QyOS00MjgxLWExY2YtN2M2M2NhYjMzMGNkIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg7, alt: "Gestão de Recursos Humanos", link: "https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
+  { src: dashImg8, alt: "Atendimentos ao Clientes", link: "https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9" },
 
 ];
-
-/* vendas lojas: https://app.powerbi.com/view?r=eyJrIjoiOTA3NmYzZjItMWY1Zi00MzIwLThhOWYtNjAxOWM0MTQ0Njg5IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
-/* acidentes rodovias: https://app.powerbi.com/view?r=eyJrIjoiMmY4MWM5M2ItMGZlMi00YmU5LTkwZTItN2Y3MDYxNmIwZjdhIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
-/* vendas carros: https://app.powerbi.com/view?r=eyJrIjoiNjU5MjNiOTMtOTA2NC00ZmViLWIyMDItZWYwM2QxMWFiN2YyIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
-/* gestão de faturamento e logística: https://app.powerbi.com/view?r=eyJrIjoiODRkYmMwZTYtMDNjNS00NDUzLTg1YWMtNjlmMjgwNDUyMzVmIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
-/* fundos imobiliários: https://app.powerbi.com/view?r=eyJrIjoiN2VlOWYwZTgtZDY2Zi00ZDJjLTgxNjYtODU3Y2E1ZTUzYTAxIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
-/* gestão de projetos e obras: https://app.powerbi.com/view?r=eyJrIjoiNDYyZjQ4ZTItY2QyOS00MjgxLWExY2YtN2M2M2NhYjMzMGNkIiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
-/* gestão Recursos Humanos: https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
-/* atendimentos ao clientes: https://app.powerbi.com/view?r=eyJrIjoiYmZkODViYzItZjUwNS00MjM3LWFkMzUtNDA3MWZiY2MwZGQ4IiwidCI6IjJjYjkzN2JlLThjMjAtNGU3My1iNjMxLTdhOTA5OWY2ZWFhMyJ9 */
 
 export default function Projects() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Projects - Rick Pereira</title>
+        <title>Dashboard - Rick Pereira</title>
       </Head>
       <section id="home" className={styles.main}>
         <div>
@@ -68,7 +59,7 @@ export default function Projects() {
           <h2> " 📊 Dashboard de Vendas - Análise Completa "</h2>
           <br></br>
           <p>
-            Principais Informações Disponíveis:<br></br><br></br>
+            <div className={styles.descText}>Principais Informações Disponíveis:</div>
             ✅ Faturamento Total - Receita consolidada de todas as lojas.<br></br>
             ✅ Faturamento por Período - Comparação de vendas ao longo do tempo (diário, semanal, mensal, anual).<br></br>
             ✅ Detalhamento por Loja - Análise individual de cada unidade, permitindo identificar as mais lucrativas.<br></br>
@@ -76,19 +67,19 @@ export default function Projects() {
             ✅ Faturamento por Gerente - Performance dos responsáveis por cada unidade.<br></br>
             ✅ Ticket Médio - Valor médio gasto por pedido, indicando tendências de consumo.<br></br><br></br>
 
+            <div className={styles.descText}>Objetido do Dashboard</div>
             Com esses insights, os gestores podem identificar padrões de vendas, comparar desempenhos entre lojas e tomar decisões
             baseadas em dados para otimizar resultados.<br></br>
           </p>
         </div>
 
         <div className={styles.divImg}>
-          <Link href={imagens[0].link} target="_blank" rel="noopener noreferrer">
+          <Link href={imagens[0].link} rel="noopener noreferrer">
             <Image src={imagens[0].src} alt={imagens[0].alt} className={styles.responsiveImg} />
           </Link>
         </div>
 
       </section>
-
 
       <div className={styles.flexSeparator}>
         <span></span>
@@ -96,16 +87,16 @@ export default function Projects() {
         <span></span>
       </div>
 
-      <section id="acidentes" className={styles.about}>g1
+      <section id="acidentes" className={styles.about}>
         <div className={styles.divText}>
           <h2>"🚦 Dashboard de Acidentes em Rodovias - Análise de Ocorrências"</h2>
           <br></br>
           <p>
-            Descrição:<br></br>
+            <div className={styles.descText}>Descrição:</div>
             Este dashboard apresenta uma visão detalhada dos acidentes em rodovias, permitindo análise de dados essenciais
             para identificar padrões, riscos e tomar decisões preventivas.<br></br><br></br>
 
-            Principais Informações Disponíveis:<br></br>
+            <div className={styles.descText}>Principais Informações Disponíveis:</div>
             ✅ Total de Acidentes - Número de ocorrências registradas no período selecionado.<br></br>
             ✅ Vítimas Fatais - Total de óbitos causados por acidentes.<br></br>
             ✅ Vítimas Feridas - Quantidade de pessoas que sofreram ferimentos.<br></br>
@@ -115,12 +106,13 @@ export default function Projects() {
             ✅ Causas dos Acidentes - Principais motivos dos incidentes, como excesso de velocidade, falha mecânica, condições climáticas,
             entre outros.<br></br><br></br>
 
+            <div className={styles.descText}>Objetido do Dashboard</div>
             Com essas informações, gestores e órgãos responsáveis podem desenvolver estratégias para reduzir a frequência de acidentes,
             melhorar a segurança viária e otimizar recursos destinados à fiscalização e infraestrutura.
           </p>
         </div>
         <div className={styles.divImg}>
-          <Link href={imagens[1].link} target="_blank" rel="noopener noreferrer">
+          <Link href={imagens[1].link} rel="noopener noreferrer">
             <Image src={imagens[1].src} alt={imagens[1].alt} className={styles.responsiveImg} />
           </Link>
         </div>
@@ -137,11 +129,11 @@ export default function Projects() {
           <h2>"🚗 Dashboard de Vendas de Carros - Análise Global e Comparativa" </h2>
           <br></br>
           <p>
-            Descrição:<br></br>
+          <div className={styles.descText}>Descrição:</div>
             Este dashboard apresenta uma visão detalhada das vendas de automóveis, permitindo a análise do faturamento por país e
             marca, além de comparações anuais para identificar tendências de mercado.<br></br><br></br>
 
-            Principais Informações Disponíveis:<br></br>
+            <div className={styles.descText}>Principais Informações Disponíveis:</div>
             ✅ Vendas por Países - Distribuição das vendas ao redor do mundo.<br></br>
             ✅ Faturamento por Marca - Receita total gerada por cada fabricante de veículos.<br></br>
             ✅ Faturamento por Países - Comparação do desempenho de vendas entre diferentes regiões.<br></br>
@@ -149,12 +141,13 @@ export default function Projects() {
             ✅ Comparativo por Marcas e Ano - Análise detalhada do desempenho das montadoras ao longo do tempo, permitindo identificar
             quais marcas cresceram ou perderam participação de mercado.<br></br><br></br>
 
-            Com esse painel, gestores podem acompanhar tendências do setor automotivo, identificar mercados em crescimento e tomar
+            <div className={styles.descText}>Objetido do Dashboard</div>
+            Com esse Dashboard, gestores podem acompanhar tendências do setor automotivo, identificar mercados em crescimento e tomar
             decisões estratégicas baseadas em dados concretos.<br></br>
           </p>
         </div>
         <div className={styles.divImg}>
-          <Link href={imagens[2].link} target="_blank" rel="noopener noreferrer">
+          <Link href={imagens[2].link} rel="noopener noreferrer">
             <Image src={imagens[2].src} alt={imagens[2].alt} className={styles.responsiveImg} />
           </Link>
         </div>
@@ -171,11 +164,11 @@ export default function Projects() {
           <h2>  "🚛 Dashboard de Gestão de Faturamento Logístico" </h2>
           <br></br>
           <p>
-            Descrição:<br></br>
+          <div className={styles.descText}>Descrição:</div>
             Este dashboard fornece uma visão detalhada do faturamento logístico, permitindo monitorar receitas, pedidos, entregas e
             devoluções, auxiliando na gestão financeira e operacional.<br></br><br></br>
 
-            Principais Informações Disponíveis:<br></br>
+            <div className={styles.descText}>Principais Informações Disponíveis:</div>
             ✅ Faturamento Total - Receita consolidada de todas as operações logísticas.<br></br>
             ✅ Total de Pedidos - Quantidade de entregas realizadas no período selecionado.<br></br>
             ✅ Total de Motoristas - Número de motoristas envolvidos nas operações de transporte.<br></br>
@@ -187,12 +180,13 @@ export default function Projects() {
 
             Motivo da Devolução - Problemas como avaria na carga, erro no pedido, recusa do cliente, entre outros.<br></br><br></br>
 
-            Com esse painel, gestores podem otimizar a logística, reduzir custos, aumentar a eficiência das entregas e minimizar devoluções,
+            <div className={styles.descText}>Objetido do Dashboard</div>
+            Com esse Dashboard, gestores podem otimizar a logística, reduzir custos, aumentar a eficiência das entregas e minimizar devoluções,
             garantindo um melhor controle financeiro e operacional.<br></br>
           </p>
         </div>
         <div className={styles.divImg}>
-          <Link href={imagens[3].link} target="_blank" rel="noopener noreferrer">
+          <Link href={imagens[3].link} rel="noopener noreferrer">
             <Image src={imagens[3].src} alt={imagens[3].alt} className={styles.responsiveImg} />
           </Link>
         </div>
@@ -210,11 +204,11 @@ export default function Projects() {
           <h2>  "🏢 Dashboard de Fundos Imobiliários - Análise Financeira e de Investimentos" </h2>
           <br></br>
           <p>
-            Descrição:<br></br>
+          <div className={styles.descText}>Descrição:</div>
             Este dashboard fornece uma visão detalhada e estratégica sobre os Fundos de Investimento Imobiliário (FIIs), permitindo um acompanhamento
             preciso do desempenho financeiro, distribuição de rendimentos, valorização de cotas e principais indicadores do mercado imobiliário.<br></br><br></br>
 
-            Principais Informações Disponíveis:<br></br>
+            <div className={styles.descText}>Principais Informações Disponíveis:</div>
             📊 Performance Financeira<br></br>
             ✅ Valor Patrimonial - Avaliação do patrimônio líquido do fundo.<br></br>
             ✅ Rentabilidade Histórica - Evolução dos retornos ao longo do tempo.<br></br>
@@ -237,8 +231,8 @@ export default function Projects() {
             ✅ Evolução do Setor - Análise do crescimento do mercado imobiliário e impacto nos fundos.<br></br>
             ✅ Correlação com a Taxa SELIC e CDI - Impacto da taxa de juros nos rendimentos dos fundos.<br></br><br></br>
 
-            Objetivo do Dashboard:<br></br>
-            Com esse painel, investidores e gestores podem monitorar a performance dos FIIs, avaliar riscos, tomar decisões estratégicas baseadas
+            <div className={styles.descText}>Objetivo do Dashboard:</div>
+            Com esse Dashboard, investidores e gestores podem monitorar a performance dos FIIs, avaliar riscos, tomar decisões estratégicas baseadas
             em dados concretos e identificar oportunidades de investimento no setor imobiliário.<br></br><br></br>
 
             📊 Com uma análise detalhada e visual, esse dashboard se torna uma ferramenta essencial para qualquer investidor que deseja otimizar sua
@@ -246,7 +240,7 @@ export default function Projects() {
           </p>
         </div>
         <div className={styles.divImg}>
-          <Link href={imagens[4].link} target="_blank" rel="noopener noreferrer">
+          <Link href={imagens[4].link} rel="noopener noreferrer">
             <Image src={imagens[4].src} alt={imagens[4].alt} className={styles.responsiveImg} />
           </Link>
         </div>
@@ -263,36 +257,36 @@ export default function Projects() {
           <h2>  "🏗️ Dashboard de Gestão de Projetos e Obras" </h2>
           <br></br>
           <p>
-            Descrição:<br></br>
+          <div className={styles.descText}>Descrição:</div>
             Este dashboard fornece uma visão abrangente do planejamento, execução e orçamento de projetos e obras, permitindo o acompanhamento
             preciso dos indicadores financeiros e operacionais.<br></br><br></br>
 
-            📊 Tela 1 - Acompanhamento Financeiro e Cronograma.<br></br>
+            📊 Dashboard 1 - Acompanhamento Financeiro e Cronograma.<br></br>
             ✅ Gráfico Planejamento x Realizado - Comparação entre as metas planejadas e os resultados efetivamente alcançados.<br></br>
             ✅ Curva S (Planejado x Realizado) - Indicador de progresso do projeto, mostrando a evolução das entregas em relação ao tempo.<br></br>
             ✅ Meta - Objetivos estabelecidos para cada fase do projeto.<br></br>
             ✅ Orçamento Total - Valor previsto para a realização da obra.<br></br>
             ✅ Total Realizado (R$) - Valor já investido no projeto, permitindo análise do orçamento executado versus planejado.<br></br><br></br>
 
-            🌎 Tela 2 - Localização e Status das Obras<br></br>
+            🌎 Dashboard 2 - Localização e Status das Obras<br></br>
             ✅ Mapa Interativo - Visualização geográfica dos projetos em andamento, organizados por país.<br></br>
             ✅ Etapas do Projeto - Monitoramento das fases da obra, como fundação, estrutura, acabamento, entre outras.<br></br>
             ✅ Serviços Realizados - Registro detalhado do que já foi concluído, facilitando a gestão e acompanhamento do cronograma.<br></br><br></br>
 
-            ⏳ Tela 3 - Tempo Gasto na Execução dos Serviços.<br></br>
+            ⏳ Dashboard 3 - Tempo Gasto na Execução dos Serviços.<br></br>
             ✅ Gráfico de Tempo por Atividade - Exibe o tempo médio gasto em cada serviço realizado.<br></br>
             ✅ Linha do Tempo de Execução - Mostra o momento exato em que cada serviço foi realizado.<br></br>
             ✅ Análise de Eficiência - Identifica gargalos e otimiza a alocação de recursos.<br></br><br></br>
 
-            🎯 Objetivo do Dashboard:<br></br>
-            Com este painel, gestores podem monitorar a evolução dos projetos, analisar desvios no cronograma, otimizar o orçamento e
+            <div className={styles.descText}>🎯 Objetivo do Dashboard:</div>
+            Com este Dashboard, gestores podem monitorar a evolução dos projetos, analisar desvios no cronograma, otimizar o orçamento e
             garantir que os serviços sejam executados de maneira eficiente.<br></br><br></br>
 
             📊 Com dados precisos e atualizados, este dashboard se torna uma ferramenta estratégica para o sucesso na gestão de obras!
           </p>
         </div>
         <div className={styles.divImg}>
-          <Link href={imagens[5].link} target="_blank" rel="noopener noreferrer">
+          <Link href={imagens[5].link} rel="noopener noreferrer">
             <Image src={imagens[5].src} alt={imagens[5].alt} className={styles.responsiveImg} />
           </Link>
         </div>
@@ -309,7 +303,7 @@ export default function Projects() {
           <h2>  "🏢 Dashboard de Gestão de Recursos Humanos - Pesquisa de Satisfação dos Colaboradores" </h2>
           <br></br>
           <p>
-            Descrição:<br></br>
+          <div className={styles.descText}>Descrição:</div>
             Este dashboard fornece uma análise detalhada sobre a satisfação dos colaboradores, permitindo que a empresa compreenda melhor
             o nível de contentamento das equipes em relação a fatores como saúde, carga horária e salário.<br></br><br></br>
 
@@ -322,7 +316,7 @@ export default function Projects() {
             ✅ Carga Horária - Análise da satisfação em relação à jornada de trabalho e equilíbrio entre vida pessoal e profissional.<br></br>
             ✅ Salário e Benefícios - Comparação da percepção dos colaboradores sobre a remuneração oferecida e pacotes de benefícios.<br></br><br></br>
 
-            Objetivo do Dashboard:<br></br>
+            <div className={styles.descText}>Objetivo do Dashboard:</div>
             Com este painel, gestores de RH podem identificar pontos de melhoria, aprimorar estratégias de retenção, otimizar processos de
             recrutamento e promover um ambiente de trabalho mais saudável e produtivo.<br></br><br></br>
 
@@ -331,7 +325,7 @@ export default function Projects() {
           </p>
         </div>
         <div className={styles.divImg}>
-          <Link href={imagens[6].link} target="_blank" rel="noopener noreferrer">
+          <Link href={imagens[6].link} rel="noopener noreferrer">
             <Image src={imagens[6].src} alt={imagens[6].alt} className={styles.responsiveImg} />
           </Link>
         </div>
@@ -348,7 +342,7 @@ export default function Projects() {
           <h2>  "📞 Dashboard de Serviço de Atendimento ao Cliente (SAC)" </h2>
           <br></br>
           <p>
-            Descrição:<br></br>
+          <div className={styles.descText}>Descrição:</div>
             Este dashboard fornece uma visão detalhada sobre o desempenho do atendimento ao cliente, permitindo que a empresa avalie a qualidade
             do suporte, o impacto nas vendas e os principais motivos de reclamações ou cancelamentos.<br></br><br></br>
 
@@ -361,7 +355,7 @@ export default function Projects() {
             ✅ Reclamações por Vendedor - Monitoramento da quantidade e tipo de reclamações associadas a cada atendente.<br></br>
             ✅ Eficiência por Atendente - Tempo médio de atendimento e taxa de resolução de problemas.<br></br><br></br>
 
-            Objetivo do Dashboard:<br></br>
+            <div className={styles.descText}>Objetivo do Dashboard:</div>
             Com este painel, gestores podem identificar gargalos no atendimento, reduzir tempos de espera, melhorar a experiência do cliente e
             aumentar a conversão de vendas, otimizando a performance da equipe de suporte.<br></br><br></br>
 
@@ -370,7 +364,7 @@ export default function Projects() {
           </p>
         </div>
         <div className={styles.divImg}>
-          <Link href={imagens[7].link} target="_blank" rel="noopener noreferrer">
+          <Link href={imagens[7].link} rel="noopener noreferrer">
             <Image src={imagens[7].src} alt={imagens[7].alt} className={styles.responsiveImg} />
           </Link>
         </div>
